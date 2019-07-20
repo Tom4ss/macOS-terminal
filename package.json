@@ -1,0 +1,26 @@
+{
+  "name": "macos-terminal",
+  "version": "1.0.0",
+  "description": "terminal on macOS",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-postcss": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios",
+    "macos",
+    "terminal"
+  ],
+  "author": "Tomas",
+  "license": "ISC"
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Simple terminal macOS" />
+    <meta name="keywords" content="macOS, ios, terminal" />
+    <meta name="author" content="TS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>macOS terminal</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script src="js/main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="terminal">
+      <div class="nav">
+        <div class="btn btn-red"><strong class="hide">×</strong></div>
+        <div class="btn btn-yellow"><strong class="hide">-</strong></div>
+        <div class="btn btn-green"><strong class="hide">&lt;</strong></div>
+        <div class="header">
+          <i class="fas fa-folder-open"></i> Documents &mdash; -bash &mdash;
+          80&times;24
+        </div>
+      </div>
+      <div class="box">
+        <p>
+          Last login: Wed Oct 17 18:13:08 on ttyss000 <br />
+          MacBook-Pro-9:~ tomas$ cd ~/Documents <br />
+          MacBook-Pro-9:~ Documents tomas$
+          <input type="text" class="inp inp-cursor" autofocus />
+          <br />
+          <span class="hide-desc">MacBook-Pro-9:~ Documents tomas$</span>
+          <input type="text" class="query" />
+        </p>
+      </div>
+    </div>
+
+    <div class="minimize">
+      <p>&nbsp;>_</p>
+    </div>
+  </body>
+</html>
