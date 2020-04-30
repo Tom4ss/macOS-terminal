@@ -4,7 +4,7 @@
   "description": "terminal on macOS",
   "main": "index.html",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "normalize.css": "^8.0.1"
   },
